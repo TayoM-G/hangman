@@ -4,7 +4,7 @@
 1. Project description
 2. Installation instructions
 3. Usage instructions
-4. File structure of the project
+4. Conclusion
 5. License information
 
 ### 1. Project description:
@@ -16,14 +16,13 @@ This is an implementation of the Hangman game, where the computer thinks of a wo
       a - Open VSCode
       b - open a new terminal
       c - git clone (https://github.com/TayoM-G/hangman.git)
-      d - go to hangman/milestone_5.py
+      d - cd to hangman
+      e - go to hangman/milestone_5.py
 
 ### 3. Usage instructions
 
-
-### 4. File structure of the project
-
-#### Milestone 1
+#### Milestone 1:
+                  Creatd  new Github repo (hangman) 
 
 #### Milestone 2 
 
@@ -32,6 +31,9 @@ This is an implementation of the Hangman game, where the computer thinks of a wo
 #### Milestone 4
 
 #### Milestone 5
+
+
+### 4. Conclusion
 
 
 ### 5. License information
