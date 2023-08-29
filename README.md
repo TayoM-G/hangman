@@ -1,6 +1,6 @@
 # Hangman
 
-========================================
+============================================================================================
 
 ## Table of Contents
 ----------------------------------------
@@ -10,7 +10,9 @@
 4. Conclusion
 5. License information
 
+
 ### 1. Project description:
+----------------------------------------
 Hangman is a classic game in which a player thinks of a word and the other player tries to guess that word within a certain amount of attempts.
 
 This is an implementation of the Hangman game, where the computer thinks of a word and the user tries to guess it. 
@@ -30,15 +32,19 @@ This is an implementation of the Hangman game, where the computer thinks of a wo
 
 I completed the project over 5 milestones which display successive stages of my code development. These are as follows:
 
-#### Milestone 1:
+<details>
+<summary>Milestone 1</summary>
 Created new Github repo called [hangman](https://github.com/TayoM-G/hangman.git)
-            
-#### Milestone 2:
-• Defined a list of words
-• Chose a random word from the list by importing the random module and using the choice method. 
-• Assigned the random word to a variable called 'word' and printed the 'word' variable. 
-• Asked user for an input
-• 
+</details>
+
+<details>
+<summary> Milestone 2</summary>
+      
+- Defined a list of words
+- Chose a random word from the list by importing the random module and using the choice method.
+- Assigned the random word to a variable called 'word' and printed the 'word' variable.
+- Asked user for an input.
+- 
 
 ```python
 import random
@@ -56,12 +62,22 @@ if len(guess) == 1 and guess.isalpha() == True:
 else:
     print("Oops! That is not a valid input.")
 ```
+</details>
 
-####   Milestone 3 
+<details>
+<summary> Milestone 3</summary>
 
-####   Milestone 4
+</details>
 
-####   Milestone 5
+<details>
+<summary> Milestone 4</summary>
+
+</details>
+
+<details>
+<summary> Milestone 5</summary>
+
+</details>
 
 
 ### 4. Conclusion
