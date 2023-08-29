@@ -21,16 +21,33 @@ This is an implementation of the Hangman game, where the computer thinks of a wo
 
 ### 3. Usage instructions
 
-#### Milestone 1:
-                  Creatd  new Github repo (hangman) 
+####   Milestone 1:
+            Created new Github repo ([hangman](https://github.com/TayoM-G/hangman.git)
+            
+####   Milestone 2:
+            Defined a list of words, chose a randomw word from the list by importing random module and using choice method.              Assigned random word to a variable called 'word' and printed the 'word' variable.
+'''python
+import random
 
-#### Milestone 2 
+word_list = ['apple', 'pear', 'plum', 'orange', 'banana']
+print(word_list)
 
-#### Milestone 3 
+word = random.choice(word_list)
+print(word)
 
-#### Milestone 4
+guess = input("Enter a single letter: ")
 
-#### Milestone 5
+if len(guess) == 1 and guess.isalpha() == True:
+    print("Good guess!")
+else:
+    print("Oops! That is not a valid input.")
+'''
+
+####   Milestone 3 
+
+####   Milestone 4
+
+####   Milestone 5
 
 
 ### 4. Conclusion
