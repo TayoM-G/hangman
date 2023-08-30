@@ -1,6 +1,6 @@
 # Hangman
 
-============================================================================================
+========================================
 
 ## Table of Contents
 ----------------------------------------
@@ -271,7 +271,8 @@ class Hangman:
 
            Parameters:
            ----------
-           guess: str - single letter entered by player.
+           guess: str
+                  single letter entered by player.
         """
         guess = guess.lower() # converts the guess to lower case
         if guess in word: # checks if guess is int he random word chosen by the computer
@@ -333,7 +334,7 @@ play_game(['apple', 'pear', 'plum', 'orange', 'banana'])
 ### 4. Conclusion
 ---------------------------------------------
 
-
+The completed code utilises a class to organise the code in a logical sequence which allows for a better flow of execution and simpler readability. It produces an uncomplicated user experience and achieves the goal of providing a straightforward online implementation of the Hagman game.
 
 ### 5. License information
 ---------------------------------------------
