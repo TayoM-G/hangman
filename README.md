@@ -35,7 +35,8 @@ I completed the project over 5 milestones which display the successive stages of
 <details>
 <summary>Milestone 1</summary>
       
-- Created new Github repo called hangman (https://github.com/TayoM-G/hangman.git/)
+- Created new Github repo called __hangman__.
+- Cloned new GitHub repo onto local system using [hangman](https://github.com/TayoM-G/hangman.git/)
 
 </details>
 
