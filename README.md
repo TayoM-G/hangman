@@ -141,14 +141,19 @@ def ask_for_input():
 - Created a class called __Hangman__:
   -  Initialised the class using ____init____ mehod and passed __'word_list'__ and __'num_lives'__ as parameters.
   -  Initialised the following attributes: __'word', 'word_guessed', 'num_letters', 'num_lives', 'word_list', 'list_of_guesses'__.
-  -  Placed __check_guess__ function within the class as a method and passed __'guess'__ to the method as a parameter.
+  -  Placed __check_guess__ function within the class as a method and passed __'guess'__ to the method as a parameter:
+      - Created a _for_ loop that loops through each letter of the word.
+      - Witihin the _for_ loop, I used an _if_ statement to check if the letter is equal to guess.
+      - Used the _enummerate_ method to loop through and index each letter.
+      - Reuced the variable __'num_letters'__ by one, outside of the _for_ loop.
+      - When letter is __NOT__ in the word, used else block to reduce __'num_lives'__ by 1.
+      - Printed a message to inform the user that the letter is not in the word and how many lives they have left.
   -  Placed __ask_for_input__ function within the class as a method:
       - Used _elif_ statement to check if __'guess'__ was already in the __'list_of_guesses'__.
       - Printed a message to inform the user that the guess has already been tried.
       - Used else block to call __check_guess__ method when single letter guess is not in __'ist_of_guesses'__.
-      - Used _append_ method to add __'guess'__ to the __"lit_of_guesses'__.
-  - 
--  
+      - Used _append_ method to add __'guess'__ to the __"list_of_guesses'__.
+- Updated GitHub repo with code changes by staging, committing and pushing changes to my GitHub repo.
 
 ```python
 import random
