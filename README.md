@@ -42,6 +42,7 @@ I completed the project over 5 milestones which display the successive stages of
 <details>
 <summary> Milestone 2</summary>
       
+- Milestone 2 cotninues from milestone 1.
 - Defined a list of words.
 - Chose a random word from the list by importing the _random module_ and using the _choice_ method.
 - Assigned the random word to a variable called __'word'__ and printed the __'word'__ variable.
@@ -72,6 +73,60 @@ else:
 <details>
 <summary> Milestone 3</summary>
 
+- Milestone 3 cotinues from milestone 2.
+- Iteratively checked if the input was a valid guess:
+  
+  - Created a _while loop_ and set condition to _True_ to  ensure that the code runs continuously.
+  - Used code detailed in milestone 2 in the body of the loop to ask the user for input, assign the user input to __'guess'__ variable and check the input is a single letter.
+  - Used a _break_ clause to break out of the loop if __'guess'__ variable passes checks.
+  - Used else block to print a message to inform the user if __'guess'__ does not pass checks.
+  
+- Checked whether the guess was in the word:
+  
+  - Created an _if_ statemnt to check if the guess is in the word.
+  - Used a formatted string to print a messgae to inform the user that the guess is in the word.
+  - Created a else block to print a message, using a formattted string, to inform the user when guess is not in the word.
+    
+- Created __check_guess__ and __ask_for_input__ functions to group relevant code:
+  
+  - __check_guess__ function has __'guess'__ passed in as a parameter and holds the code to check if the guess is in the word.
+  - Used the _lower_ method to convert guess into lower case.
+  - __ask_for_input__ function contains the code that iteratively checks if the input is a valid guess.
+  - The __check_guess__ function is walled within the __ask_for_input__ function but it is executed outside of the _while_ loop.
+
+```python
+import random
+
+
+word_list = ['apple', 'pear', 'plum', 'orange', 'banana']
+word = random.choice(word_list)
+print(word)
+
+
+def check_guess(guess):
+    """Checks if the letter guessed is in the random word.
+
+    Args:
+        guess (str): a single letter input from user.
+    """
+    guess = guess.lower()
+    if guess in word:
+        print(f"Good guess! {guess} is in the word.")
+    else:
+        print(f"Sorry, {guess} is not in the word. Try again.")
+
+
+def ask_for_input():
+    """Checks if user input is valid."""
+
+    while True:
+        guess = input("Enter a single letter: ")
+        if len(guess) == 1 and guess.isalpha() == True:
+           break
+        else:
+            print("Invalid letter. Please, enter a single alphabetical character.")
+    check_guess(guess)
+```
 </details>
 
 <details>
