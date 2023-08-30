@@ -8,7 +8,6 @@
 2. Installation instructions
 3. Usage instructions
 4. Conclusion
-5. License information
 
 
 ### 1. Project description
@@ -335,6 +334,3 @@ play_game(['apple', 'pear', 'plum', 'orange', 'banana'])
 ---------------------------------------------
 
 The completed code utilises a class to organise the code in a logical sequence which allows for a better flow of execution and simpler readability. It produces an uncomplicated user experience and achieves the goal of providing a straightforward online implementation of the Hagman game.
-
-### 5. License information
----------------------------------------------
