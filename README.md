@@ -215,6 +215,7 @@ letter_guess.ask_for_input()
     - Used _elif_ staatement to check if __'num_letters'__ is greater than 0. When this condition is met, the __ask_for_input__ method is called to continue the game.
     - Used _elif_ statement to check if __'num_lives'__ is not 0 and __'num_letters'__ is not greater than 0. When this condition is met, a message is printed to inform the user that they have won the game. 
 - Called __play_game__ function with the list of words passed as an argument.
+- Updated GitHub repo with code changes by staging, committing and pushing changes to my GitHub repo.
 
 ```python
 import random # imports random module
@@ -331,6 +332,7 @@ play_game(['apple', 'pear', 'plum', 'orange', 'banana'])
 
 ### 4. Conclusion
 ---------------------------------------------
+
 
 
 ### 5. License information
