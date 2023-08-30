@@ -17,6 +17,9 @@ Hangman is a classic game in which a player thinks of a word and the other playe
 
 This is an implementation of the Hangman game, where the computer thinks of a word and the user tries to guess it. 
 
+The aim of the project is to produce an online version of the hangman game that is simple and clear for a single user to play.
+
+While completing this project, I have learnt the logical sequence of creating building blocks of code in order to produce an effective and readable final code. I have learnt more about the use of doc strings and comments to enhance the readability of my code and I am learning more about the benefits of using my GitHub README file to expand on my project and ensure optimal usability for the user.
 
 ### 2. Installation instructions
 ---------------------------------------
@@ -36,7 +39,7 @@ I completed the project over 5 milestones which display the successive stages of
 <summary>Milestone 1</summary>
       
 - Created new Github repo called __hangman__.
-- Cloned new GitHub repo onto local system using [hangman](https://github.com/TayoM-G/hangman.git/)
+- Cloned new GitHub repo onto local system using [hangman](https://github.com/TayoM-G/hangman.git/) (https://github.com/TayoM-G/hangman.git/)
 
 </details>
 
