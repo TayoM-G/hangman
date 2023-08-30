@@ -1,8 +1,8 @@
 import random
 
 
-list_of_fruits = ['apple', 'pear', 'plum', 'orange', 'banana']
-word = random.choice(list_of_fruits)
+word_list = ['apple', 'pear', 'plum', 'orange', 'banana']
+word = random.choice(word_list)
 print(word)
 
 
