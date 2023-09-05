@@ -1,12 +1,10 @@
 # Hangman
 
-==================================================================================
-
 ## Table of Contents
 ----------------------------------------
 1. Project description
 2. Installation instructions
-3. Usage instructions
+3. Code Explanation
 4. Conclusion
 
 
@@ -16,20 +14,20 @@ Hangman is a classic game in which a player thinks of a word and the other playe
 
 This is an implementation of the Hangman game, where the computer thinks of a word and the user tries to guess it. 
 
-The aim of the project is to produce an online version of the hangman game that is simple and clear for a single user to play.
+The aim of the project is to produce a version of the hangman game that is simple and clear for a single user to play.
 
 While completing this project, I have learnt the logical sequence of creating building blocks of code in order to produce an effective and readable final code. I have learnt more about the use of doc strings and comments to enhance the readability of my code and I am learning more about the benefits of using my GitHub README file to expand on my project and ensure optimal usability for the user.
 
 ### 2. Installation instructions
 ---------------------------------------
-      a - Open VSCode
-      b - open a new terminal
-      c - git clone (https://github.com/TayoM-G/hangman.git)
-      d - cd to hangman
-      e - go to hangman/milestone_5.py
+      1 - Open the command line
+      2 - git clone (https://github.com/TayoM-G/hangman.git)
+      3 - cd to hangman
+      4 - go to hangman/milestone_5.py
+      5 - run python milestone_5.py      
       
 
-### 3. Usage instructions
+### 3. Code explanation
 --------------------------------------
 
 I completed the project over 5 milestones which display the successive stages of my code development. These are as follows:
@@ -333,4 +331,4 @@ play_game(['apple', 'pear', 'plum', 'orange', 'banana'])
 ### 4. Conclusion
 ---------------------------------------------
 
-The completed code utilises a class to organise the code in a logical sequence which allows for a better flow of execution and simpler readability. It produces an uncomplicated user experience and achieves the goal of providing a straightforward online implementation of the Hagman game.
+The completed code utilises a class to organise the code in a logical sequence which allows for a better flow of execution and simpler readability. It produces an uncomplicated user experience and achieves the goal of providing a straightforward implementation of the Hangman game.
