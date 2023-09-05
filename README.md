@@ -254,7 +254,7 @@ class Hangman:
         Initialises attributes for the Hangman class.
         See class docstring for details of attributes.
         """
-        self.word = random.choice(word_list) # chooses word from word_list at random
+        self.word = random.choice(word_list)
         self.word_guessed = ["_"] * len(self.word)
         self.num_letters = len(set(self.word))
         self.num_lives = num_lives
