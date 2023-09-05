@@ -204,7 +204,7 @@ letter_guess.ask_for_input()
 <summary> Milestone 5</summary>
 
 - Coded the logic of the game:
-  - Created a function called __play_game__ which takes in __'word_list__ as a parameter:
+  - Created a function called __play_game__ which takes in __'word_list'__ as a parameter:
     - Created a variable valled __'num_lives'__ and assigned it a value of 5.
     - Created an instance of Hangman class and assigned it to a variable called __'game'__.
     - Passed __'word_list"__ and __'num_lives'__ as arguments to the __'game'__ object.
