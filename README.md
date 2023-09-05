@@ -1,3 +1,4 @@
+
 # Hangman
 
 ## Table of Contents
@@ -20,6 +21,7 @@ While completing this project, I have learnt the logical sequence of creating bu
 
 ### 2. Installation instructions
 ---------------------------------------
+      
 1 - Open the command line
 2 - run git clone (https://github.com/TayoM-G/hangman.git)
 3 - cd to hangman
