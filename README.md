@@ -23,8 +23,7 @@ While completing this project, I have learnt the logical sequence of creating bu
       1 - Open the command line
       2 - git clone (https://github.com/TayoM-G/hangman.git)
       3 - cd to hangman
-      4 - go to hangman/milestone_5.py
-      5 - run python milestone_5.py      
+      4 - run python milestone_5.py      
       
 
 ### 3. Code explanation
