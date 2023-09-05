@@ -232,7 +232,7 @@ class Hangman:
     word_list: list
                A list of words.
 
-‹‹‹£    Attributes:
+    Attributes:
     ----------
     word: str
           the word to be guessed, picked at random from word_list.
