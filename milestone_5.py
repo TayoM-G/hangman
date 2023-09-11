@@ -55,12 +55,18 @@ class Hangman:
         guess: str
                single letter entered by player.
         """
-        guess = guess.lower() # converts the guess to lower case
-        if guess in self.word: # checks if guess is in the random word chosen by the computer
+        guess = guess.lower() 
+        # converts the guess to lower case
+        if guess in self.word: 
+            # checks if guess is in the random word chosen by the computer
             print(f"Good guess! {guess} is in the word.")
-            for index, letter in enumerate(self.word): # loops through and indexes each letter of the word
-                if letter == guess: # checks if letter is equal to guess
-                    self.word_guessed[index] = letter # places the letter guessed in the corresponding index of the word to replace '_'
+            for index, letter in enumerate(self.word): 
+                # loops through and indexes each letter of the word
+                if letter == guess: 
+                    # checks if letter is equal to guess
+                    self.word_guessed[index] = letter 
+                    # places the letter guessed in the corresponding index of the word 
+                    # to replace '_'
             self.num_letters -= 1
             print(self.word_guessed)
         else:
@@ -74,16 +80,22 @@ class Hangman:
         This method asks the player to input a single letter, then checks that the 
         input is valid and has not been previouly entered. 
         """
-        while True: # iterates over proceeding code 
-            guess = input("Enter a single letter: ") # asks user for input and assigns the input to a variable called 'guess'
-            if len(guess) != 1 or guess.isalpha() == False: # checks if the input is equal to 1 and is alphabetical
+        while True: 
+            # iterates over proceeding code 
+            guess = input("Enter a single letter: ") 
+            # asks user for input and assigns the input to a variable called 'guess'
+            if len(guess) != 1 or guess.isalpha() == False: 
+                # checks if the input is equal to 1 and is alphabetical
                 print("Invalid letter. Please, enter a single alphabetical character.")
-            elif guess in self.list_of_guesses: # checks if input has already been entered
+            elif guess in self.list_of_guesses: 
+                # checks if input has already been entered
                 print("You already tried that letter!")
             else:
-                self._check_guess(guess) # calls check_guess method
-                self.list_of_guesses.append(guess) # appends guess to list_of_guesses
-                break # breaks out of the while loop
+                self._check_guess(guess) 
+                # calls check_guess method
+                self.list_of_guesses.append(guess) 
+                # appends guess to list_of_guesses
+                break 
 
 
 def play_game(word_list):
@@ -97,14 +109,20 @@ def play_game(word_list):
                A list of words.
     """
     num_lives = 5
-    game = Hangman(word_list, num_lives) # an instance of the Hangman class. Has word_list and num_lives passed as arguments
-    while True: # iterates over proceeding code 
-        if game.num_lives == 0: # checks if number of lives is 0
+    game = Hangman(word_list, num_lives) 
+    # an instance of the Hangman class. Has word_list and num_lives passed as arguments
+    while True: 
+        # iterates over proceeding code 
+        if game.num_lives == 0: 
+            # checks if number of lives is 0
             print("You lost!")
             break
-        elif game.num_letters > 0: # checks if number of letters is greater than 0
+        elif game.num_letters > 0: 
+            # checks if number of letters is greater than 0
             game.ask_for_input()
-        elif game.num_lives != 0 and game.num_letters == 0: # checks if number of lives is not 0 and number of letters is not gretaer than 0
+        elif game.num_lives != 0 and game.num_letters == 0: 
+            # checks if number of lives is not 0 and number of letters is not greater 
+            # than 0
             print("Congratulations. You won the game!")
             break
 
